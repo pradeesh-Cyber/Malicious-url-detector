@@ -1,0 +1,41 @@
+{
+  "dataset": "sid321axn/malicious-urls-dataset",
+  "classes": [
+    "benign",
+    "defacement",
+    "malware",
+    "phishing"
+  ],
+  "n_features": 24,
+  "feature_names": [
+    "url_length",
+    "url_entropy",
+    "has_https",
+    "has_http",
+    "num_dots",
+    "num_hyphens",
+    "num_underscores",
+    "num_slashes",
+    "num_question_marks",
+    "num_equals",
+    "num_ampersands",
+    "num_at_symbols",
+    "num_percent",
+    "num_digits",
+    "digit_ratio",
+    "has_ip_address",
+    "has_port",
+    "has_hex_encoding",
+    "double_slash_in_path",
+    "has_shortening",
+    "domain_length",
+    "subdomain_count",
+    "domain_entropy",
+    "tld_length"
+  ],
+  "best_model": "Random Forest",
+  "rf_accuracy": 0.9563,
+  "xgb_accuracy": 0.943,
+  "rf_f1": 0.9567,
+  "xgb_f1": 0.9448
+}
